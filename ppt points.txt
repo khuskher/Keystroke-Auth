@@ -1,0 +1,174 @@
+Page 1: Keystroke Analysis for User Authentication
+
+Page 2: Table of Content
+
+Page 3: User Authentication 
+
+- Def: 'a security procedure that verifies a person's identity before allowing access to a system, application, or network'
+
+- Authentication is fundamental to preserving the confidentiality, integrity, and availability of information, as it forms the very foundation of trust in the digital world.
+
+- Protection agains: 
+	- Unauthorized access
+	- Data protection
+	- identity verification
+
+Page 4: Security Challenges
+
+- both complex and far-reaching, necessitating innovative solutions to protect individuals, organizations, and digital ecosystems
+
+- Password-Related Challenges
+- Multi-Platform Authentication
+- Social Engineering and Phishing
+- Credential Theft
+- Compliance and Regulatory Requirements
+
+Page 5: Traditional Methods
+
+- Passwords
+- PINs
+
+problems: human behavior, password reuse, complexity vs. memorability, phishing attacks,  dictionary attacks, guessable pins, lack of complexity
+
+Page 6: Problem? and why this topic?
+
+as you can see, many problems with traditional authentication method, we need something that is reliable and also convient in this fast pace world. This is where biometric authentication, more specifically, keystroke authentication comes into play. 
+
+Page 7: Classification of User Authentication
+
+- knowledge-based, object-based and biometric-based
+
+- biometric -> physiological and behavioral (img)
+- adds an extra layer of security combined with traditional methods
+
+Page 8: Biometric Authentication
+
+- uniqueness (fingerprints, typing rhythms)
+- non-repudiation
+- convenience 
+
+
+Page 9: Keystroke Exploration
+
+- harnesses the unique typing patterns of individuals to verify their identity
+- capitalizes on the distinct rhythm and cadence of how individuals interact with their keyboards
+- uniqueness -> records various parameters such as the time intervals between keystrokes, the duration of key depressions (known as dwell times), and the delays between key presses (commonly referred to as flight times)
+- Factors such as fatigue, mood, and even physical health can influence typing behavior. This adaptability makes keystroke dynamics an adaptable and versatile biometric modality
+- keystroke dynamics transcends language barriers and accommodates variations in typing speed
+- user-friendly
+- low intrusiveness and versatile
+
+
+Page 10: Identification and Verification
+
+Identification: ascertain an individual's identity by scrutinizing a biometric pattern derived from their keystroke dynamics
+- collection of a substantial volume of keystroke data
+- undergoes a meticulous comparison against every known template, resulting in a score or distance indicating the similarity between the pattern and the template
+
+Verification: the system verifies a person's identity against their individual template
+
+Page 11: Keystroke Analysis Methods
+1. Static at login
+2. Periodic dynamics
+3. Continuous dynamics
+4. Keywork-specific
+5. Application-specific
+
+
+Page 12: Role of ML in Keystroke Authentication
+
+- by extracting patterns and features 
+- factors like dwell times, flight times, and typing rhythm, machine learning models can construct distinctive profiles for individual users
+- adaptation of keystroke analysis over time - dynamically adjust their recognition criteria
+- Leveraging this wealth of data, machine learning models can be trained to recognize and verify a user's identity accurately. 
+
+Page 13: Implementation
+
+- investigate the feasibility of authenticating computer users by capturing and analyzing their keyboard typing patterns
+
+Static Keystroke verification
+1. Data collection (Enrollement)
+2. keystroke listener
+3. verification
+
+Page 14: Dataset Info
+
+- combining the information from the keypress itself with the timing of the preceding and subsequent keypresses
+
+Data collected:
+1.	Hold 1: The duration for which the first key is held down.
+2.	Press-Press: The time interval between the pressing of the first key and the pressing of the second key.
+3.	Release-Press: The time duration between the release of the first key and the pressing of the second key.
+4.	Release-Release: The time elapsed between the release of the first key and the release of the second key.
+5.	Hold-2: The duration for which the first key is held before the second key is operated.
+6.	Total Time: The overall period between pressing the first key and releasing the second key.
+
+For each of these six features, we calculated and stored a slope, indicating the difference between the measurement of that feature in the current digraph and the subsequent digraph
+
+IMAGE
+
+because we dont have enough data collection time, we made use of  keystroke dynamics data set available on kaggle
+- typing behavior 110 users 
+
+
+Page 15: Enrollment process
+
+Flow chart IMAGE
+
+1. provide username
+2. enter password 'n' times
+
+Page 16: Models 
+
+- L2 Norm Measure 
+- Naive Bayes 
+
+Page 17: L2 Norm Measure
+
+- euclidean norm
+- to quantify the distance or dissimilarity between data points
+- formula 
+
+Page 18: Naive Bayes
+
+- based on Bayes' theorem and the assumption of feature independence
+- calculates the probability of a data point belonging to a particular class based on the probability of observing the features in that class
+- formula 
+
+Page 19: Verification Process
+
+- enter username and password
+- if correct, re-enter the password
+- keystroke pattern observed during the second password entry is compared against the patterns recorded during the enrollment phase
+- score computer 
+- if below threshold, accepted
+
+Page 20: Evaluation
+
+- FAR and FRR across potential thresholds
+- GRAPHS
+- threshold table 
+
+- EER (L2 better)
+
+- ROC
+
+- HTER
+
+Page 21: Limitations of keystroke analysis
+
+- behavioral variability
+- adaptability and contextual changes
+- incomplete user profile capture 
+- impracticality of wide-scale implementation
+- privacy concerns
+- optimal threshold dependency 
+
+Page 22: Future Scope 
+
+- Integration with multifactor authentication
+- evolution and additional verification
+- enhanced security
+- sophisticated user identification
+
+Page 23: THANK YOU!

@@ -1,0 +1,130 @@
+[
+    {
+        "0": {
+            "hold_1": 0.10468053817749023,
+            "press_press": 0.21067595481872559,
+            "release_press": 0.10599541664123535,
+            "release_release": 0.1902923583984375,
+            "hold_2": 0.08429694175720215,
+            "total_time": 0.29497289657592773,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.12427115440368652,
+            "press_press": 0.18133783340454102,
+            "release_press": 0.05706667900085449,
+            "release_release": 0.15016388893127441,
+            "hold_2": 0.09309720993041992,
+            "total_time": 0.27443504333496094,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.1466679573059082,
+            "press_press": 0.1996452808380127,
+            "release_press": 0.05297732353210449,
+            "release_release": 0.16022777557373047,
+            "hold_2": 0.10725045204162598,
+            "total_time": 0.30689573287963867,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.14313483238220215,
+            "press_press": 0.24376964569091797,
+            "release_press": 0.10063481330871582,
+            "release_release": 0.2406463623046875,
+            "hold_2": 0.14001154899597168,
+            "total_time": 0.38378119468688965,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.14168167114257812,
+            "press_press": 0.2186751365661621,
+            "release_press": 0.07699346542358398,
+            "release_release": 0.24082541465759277,
+            "hold_2": 0.1638319492340088,
+            "total_time": 0.3825070858001709,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.13814496994018555,
+            "press_press": 0.17891955375671387,
+            "release_press": 0.04077458381652832,
+            "release_release": 0.1534104347229004,
+            "hold_2": 0.11263585090637207,
+            "total_time": 0.29155540466308594,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.13315534591674805,
+            "press_press": 0.2300889492034912,
+            "release_press": 0.09693360328674316,
+            "release_release": 0.1824502944946289,
+            "hold_2": 0.08551669120788574,
+            "total_time": 0.31560564041137695,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.11681532859802246,
+            "press_press": 0.20060038566589355,
+            "release_press": 0.0837850570678711,
+            "release_release": 0.1876530647277832,
+            "hold_2": 0.10386800765991211,
+            "total_time": 0.30446839332580566,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    }
+]

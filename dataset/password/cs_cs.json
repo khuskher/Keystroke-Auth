@@ -1,0 +1,130 @@
+[
+    {
+        "0": {
+            "hold_1": 0.07938718795776367,
+            "press_press": 0.07938718795776367,
+            "release_press": 0.0,
+            "release_release": 0.13219141960144043,
+            "hold_2": 0.13219141960144043,
+            "total_time": 0.2115786075592041,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.08773159980773926,
+            "press_press": 0.08773159980773926,
+            "release_press": 0.0,
+            "release_release": 0.0804295539855957,
+            "hold_2": 0.0804295539855957,
+            "total_time": 0.16816115379333496,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.08512163162231445,
+            "press_press": 0.08512163162231445,
+            "release_press": 0.0,
+            "release_release": 0.08972334861755371,
+            "hold_2": 0.08972334861755371,
+            "total_time": 0.17484498023986816,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.06249284744262695,
+            "press_press": 0.06249284744262695,
+            "release_press": 0.0,
+            "release_release": 0.11375164985656738,
+            "hold_2": 0.11375164985656738,
+            "total_time": 0.17624449729919434,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.06228995323181152,
+            "press_press": 0.06228995323181152,
+            "release_press": 0.0,
+            "release_release": 0.12130022048950195,
+            "hold_2": 0.12130022048950195,
+            "total_time": 0.18359017372131348,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.10346603393554688,
+            "press_press": 0.10346603393554688,
+            "release_press": 0.0,
+            "release_release": 0.11063122749328613,
+            "hold_2": 0.11063122749328613,
+            "total_time": 0.214097261428833,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.09948563575744629,
+            "press_press": 0.09948563575744629,
+            "release_press": 0.0,
+            "release_release": 0.08497762680053711,
+            "hold_2": 0.08497762680053711,
+            "total_time": 0.1844632625579834,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    },
+    {
+        "0": {
+            "hold_1": 0.12627220153808594,
+            "press_press": 0.12627220153808594,
+            "release_press": 0.0,
+            "release_release": 0.09238791465759277,
+            "hold_2": 0.09238791465759277,
+            "total_time": 0.2186601161956787,
+            "slope_h1": 0,
+            "slope_pp": 0,
+            "slope_rp": 0,
+            "slope_rr": 0,
+            "slope_h2": 0,
+            "slope_tt": 0
+        }
+    }
+]
